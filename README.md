@@ -6,7 +6,7 @@ Make a new directory called WORKSPACE as follows:
 mkdir WORKSPACE
 cd WORKSPACE
 
-Install Repo in the created directory WORKSPACE
+Install Repo in the created directory WORKSPACE:
 repo init -u https://github.com/crdroidandroid/android -b 7.1
 
 Add the following roomservice.xml file in .repo/local_manifests within the WORKSPACE directory.
