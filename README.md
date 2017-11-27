@@ -1,22 +1,23 @@
 # crDroid_local_manifests
 
-Make sure that your LINUX based computer is setup for developing Android roms; you can read how here. url:https://source.android.com/setup/initializing
+Here are the instructions to build from source:
+Make sure that your LINUX based computer is setup for developing Android roms; you can read how [URL="https://source.android.com/setup/initializing"]here[/URL].
 
 Make a new directory called WORKSPACE as follows:
-mkdir WORKSPACE
-cd WORKSPACE
+[CODE]mkdir WORKSPACE
+cd WORKSPACE[/CODE]
 
 Install Repo in the created directory WORKSPACE
-repo init -u https://github.com/crdroidandroid/android -b 7.1
+[CODE]repo init -u https://github.com/crdroidandroid/android -b 7.1[/CODE]
 
 Add the following roomservice.xml file in .repo/local_manifests within the WORKSPACE directory.
-git clone https://github.com/AICProcks/crDroid_local_manifests.git .repo/local_manifests -b 7.1
+[CODE]git clone https://github.com/AICProcks/crDroid_local_manifests.git .repo/local_manifests -b 7.1[/CODE]
 
 Add the following code to your ".bashrc" as follows:
-export JACK_SERVER_VM_ARGUMENTS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx4g"
+[CODE]export JACK_SERVER_VM_ARGUMENTS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx4g"[/CODE]
 
 Then use the following code:
-repo sync --force-sync
+[CODE]repo sync --force-sync
 . build/envsetup.sh
 make clobber
-brunch grouper
+brunch grouper[/CODE]
