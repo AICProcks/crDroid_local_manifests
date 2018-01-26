@@ -19,11 +19,11 @@
 
  <remove-project name="LineageOS/android_external_libnfc-nxp" />
  <project path="external/libnfc-nxp" name="wilmsn/android_external_libnfc-nxp" remote="github1" revision="cm-14.1" groups="pdk" />   
- <project path="vendor/asus" name="android_device_asus_tilapia/tree/cm-14.1/self-extractors/asus" remote="LOS" revision="cm-14.1" />
- <project path="vendor/broadcom" name="android_device_asus_tilapia/tree/cm-14.1/self-extractors/broadcom" remote="LOS" revision="cm-14.1" />
- <project path="vendor/elan" name="android_device_asus_tilapia/tree/cm-14.1/self-extractors/elan" remote="LOS" revision="cm-14.1" />
- <project path="vendor/invensense" name="android_device_asus_tilapia/tree/cm-14.1/self-extractors/invensense" remote="LOS" revision="cm-14.1" />
- <project path="vendor/nvidia" name="android_device_asus_tilapia/tree/cm-14.1/self-extractors/nvidia" remote="LOS" revision="cm-14.1" />
+ <project path="vendor/asus" name="LineageOS/android_device_asus_tilapia/tree/cm-14.1/self-extractors/asus" remote="github1" />
+ <project path="vendor/broadcom" name="LineageOS/android_device_asus_tilapia/tree/cm-14.1/self-extractors/broadcom" remote="github1" />
+ <project path="vendor/elan" name="LineageOS/android_device_asus_tilapia/tree/cm-14.1/self-extractors/elan" remote="github1" />
+ <project path="vendor/invensense" name="LineageOS/android_device_asus_tilapia/tree/cm-14.1/self-extractors/invensense" remote="github1" />
+ <project path="vendor/nvidia" name="LineageOS/android_device_asus_tilapia/tree/cm-14.1/self-extractors/nvidia" remote="github1" />
 
 
 </manifest>
