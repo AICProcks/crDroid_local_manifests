@@ -6,20 +6,23 @@
 	   />
   <remote  name="ads"
            fetch="https://github.com/AndDiSa/"
-           />
+           />		   
+  <remote  name="LOS"
+           fetch="https://github.com/LineageOS/"
+           />		   
 
  <remove-project name="LineageOS/android_packages_apps_Exchange" />
  
- <project path="device/asus/grouper" name="wilmsn/android_device_asus_grouper" remote="github1" revision="cm-14.1" groups="device,grouper" />
+ <project path="device/asus/tilapia" name="android_device_asus_tilapia" remote="LOS" revision="cm-14.1" groups="device,tilapia" />
  <project path="kernel/asus/grouper" name="android_kernel_asus_grouper" remote="ads" revision="ads-7.1.0" />
 
  <remove-project name="LineageOS/android_external_libnfc-nxp" />
  <project path="external/libnfc-nxp" name="wilmsn/android_external_libnfc-nxp" remote="github1" revision="cm-14.1" groups="pdk" />   
- <project path="vendor/asus" name="wilmsn/proprietary_vendor_asus" remote="github1" revision="cm-14.1" />
- <project path="vendor/broadcom" name="wilmsn/proprietary_vendor_broadcom" remote="github1" revision="cm-14.1" />
- <project path="vendor/elan" name="wilmsn/proprietary_vendor_elan" remote="github1" revision="cm-14.1" />
- <project path="vendor/invensense" name="wilmsn/proprietary_vendor_invensense" remote="github1" revision="cm-14.1" />
- <project path="vendor/nvidia" name="wilmsn/proprietary_vendor_nvidia" remote="github1" revision="cm-14.1" />
+ <project path="vendor/asus" name="android_device_asus_tilapia/self-extractors/asus" remote="LOS" revision="cm-14.1" />
+ <project path="vendor/broadcom" name="android_device_asus_tilapia/self-extractors/broadcom" remote="LOS" revision="cm-14.1" />
+ <project path="vendor/elan" name="android_device_asus_tilapia/self-extractors/elan" remote="LOS" revision="cm-14.1" />
+ <project path="vendor/invensense" name="android_device_asus_tilapia/self-extractors/invensense" remote="LOS" revision="cm-14.1" />
+ <project path="vendor/nvidia" name="android_device_asus_tilapia/self-extractors/nvidia" remote="LOS" revision="cm-14.1" />
 
 
 </manifest>
