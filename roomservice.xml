@@ -10,9 +10,10 @@
 
  <remove-project name="LineageOS/android_packages_apps_Exchange" />
  
+ <project path="device/asus/grouper" name="android_device_asus_grouper" remote="ads" revision="ads-7.1.0" groups="device,grouper" />
  <project path="device/asus/tilapia" name="device_asus_tilapia" remote="ads" revision="ads-7.1.0" groups="device,tilapia" />
- <project path="kernel/asus/tilapia" name="android_kernel_asus_grouper" remote="ads" revision="ads-7.1.0" />
-
+ <project path="kernel/asus/grouper" name="android_kernel_asus_grouper" remote="ads" revision="ads-7.1.0" />
+	
  <remove-project name="LineageOS/android_external_libnfc-nxp" />
  <project path="external/libnfc-nxp" name="wilmsn/android_external_libnfc-nxp" remote="github1" revision="cm-14.1" groups="pdk" />   
  <project path="vendor/asus" name="AICProcks/proprietary_vendor_asus" remote="github1" revision="master" />
