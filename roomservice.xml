@@ -5,13 +5,13 @@
 	   fetch="https://github.com"
 	   />
   <remote  name="ads"
-           fetch="https://github.com/AICProcks/"
+           fetch="https://github.com/harryyoud/"
            />
 
  <remove-project name="LineageOS/android_packages_apps_Exchange" />
  
- <project path="device/asus/grouper" name="AICProcks/android_device_asus_grouper" remote="github1" revision="cm-14.1" groups="device,grouper" />
- <project path="kernel/asus/grouper" name="android_kernel_asus_grouper" remote="ads" revision="ads-7.1.0" />
+ <project path="device/asus/grouper" name="harryyoud/device_grouper" remote="github1" revision="lineage-15.1" groups="device,grouper" />
+ <project path="kernel/asus/grouper" name="kernel_grouper" remote="ads" revision="lineage-15.1" />
 
  <remove-project name="LineageOS/android_external_libnfc-nxp" />
  <project path="external/libnfc-nxp" name="wilmsn/android_external_libnfc-nxp" remote="github1" revision="cm-14.1" groups="pdk" />   
