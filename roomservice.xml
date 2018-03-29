@@ -12,12 +12,12 @@
  <project path="kernel/asus/grouper" name="kernel_grouper" remote="ads" revision="lineage-15.1" />
 
  <remove-project name="LineageOS/android_external_libnfc-nxp" />
- <project path="external/libnfc-nxp" name="wilmsn/android_external_libnfc-nxp" remote="github1" revision="cm-14.1" groups="pdk" />   
- <project path="vendor/asus" name="wilmsn/proprietary_vendor_asus" remote="github1" revision="cm-14.1" />
- <project path="vendor/broadcom" name="wilmsn/proprietary_vendor_broadcom" remote="github1" revision="cm-14.1" />
- <project path="vendor/elan" name="wilmsn/proprietary_vendor_elan" remote="github1" revision="cm-14.1" />
- <project path="vendor/invensense" name="wilmsn/proprietary_vendor_invensense" remote="github1" revision="cm-14.1" />
- <project path="vendor/nvidia" name="wilmsn/proprietary_vendor_nvidia" remote="github1" revision="cm-14.1" />
+ <project path="external/libnfc-nxp" name="AICProcks/android_external_libnfc-nxp" remote="github1" revision="lineage-15.1" groups="pdk" />   
+ <project path="vendor/asus" name="AICProcks/proprietary_vendor_asus" remote="github1" revision="lineage-15.1" />
+ <project path="vendor/broadcom" name="AICProcks/proprietary_vendor_broadcom" remote="github1" revision="lineage-15.1" />
+ <project path="vendor/elan" name="AICProcks/proprietary_vendor_elan" remote="github1" revision="lineage-15.1" />
+ <project path="vendor/invensense" name="AICProcks/proprietary_vendor_invensense" remote="github1" revision="lineage-15.1" />
+ <project path="vendor/nvidia" name="AICProcks/proprietary_vendor_nvidia" remote="github1" revision="lineage-15.1" />
 
 
 </manifest>
