@@ -8,8 +8,6 @@
            fetch="https://github.com/harryyoud/"
            />
 
- <remove-project name="LineageOS/android_packages_apps_Exchange" />
- 
  <project path="device/asus/grouper" name="harryyoud/device_grouper" remote="github1" revision="lineage-15.1" groups="device,grouper" />
  <project path="kernel/asus/grouper" name="kernel_grouper" remote="ads" revision="lineage-15.1" />
 
