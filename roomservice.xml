@@ -17,7 +17,7 @@
 
  <remove-project name="LineageOS/android_external_libnfc-nxp" />
 	
- <project path="vendor/grouper" name="proprietary_vendor_asus/grouper" remote="mp" revision="lineage-15.1" />
+ <project path="vendor/grouper" name="proprietary_vendor_asus" remote="mp" revision="lineage-15.1" />
 	
  <project path="external/libnfc-nxp" name="AICProcks/android_external_libnfc-nxp" remote="github1" revision="lineage-15.1" groups="pdk" />   
  <project path="vendor/asus" name="AICProcks/proprietary_vendor_asus-1" remote="github1" revision="lineage-15.1" />
