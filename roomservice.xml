@@ -11,7 +11,6 @@
  <project path="kernel/asus/grouper" name="android_kernel_nvidia_tegra3" remote="ads" revision="stable" />
 
  <project path="external/libnfc-nxp" name="wilmsn/android_external_libnfc-nxp" remote="github1" revision="cm-14.1" groups="pdk" />   
- <project path="vendor/asus" name="wilmsn/proprietary_vendor_asus" remote="github1" revision="cm-14.1" />
  <project path="vendor/broadcom" name="wilmsn/proprietary_vendor_broadcom" remote="github1" revision="cm-14.1" />
  <project path="vendor/elan" name="wilmsn/proprietary_vendor_elan" remote="github1" revision="cm-14.1" />
  <project path="vendor/invensense" name="wilmsn/proprietary_vendor_invensense" remote="github1" revision="cm-14.1" />
