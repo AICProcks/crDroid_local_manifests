@@ -12,7 +12,6 @@
 
  <project path="external/libnfc-nxp" name="wilmsn/android_external_libnfc-nxp" remote="github1" revision="cm-14.1" groups="pdk" />   
  <project path="vendor/elan" name="wilmsn/proprietary_vendor_elan" remote="github1" revision="cm-14.1" />
- <project path="vendor/invensense" name="wilmsn/proprietary_vendor_invensense" remote="github1" revision="cm-14.1" />
  <project path="vendor/nvidia" name="wilmsn/proprietary_vendor_nvidia" remote="github1" revision="cm-14.1" />
 
 
