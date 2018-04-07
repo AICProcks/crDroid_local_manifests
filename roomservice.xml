@@ -5,15 +5,12 @@
 	   fetch="https://github.com"
 	   />
   <remote  name="ads"
-           fetch="https://github.com/AndDiSa/"
+           fetch="https://github.com/Unlegacy-Android/"
            />
-
- <remove-project name="LineageOS/android_packages_apps_Exchange" />
  
- <project path="device/asus/grouper" name="wilmsn/android_device_asus_grouper" remote="github1" revision="cm-14.1" groups="device,grouper" />
- <project path="kernel/asus/grouper" name="android_kernel_asus_grouper" remote="ads" revision="ads-7.1.0" />
+ <project path="device/asus/grouper" name="Unlegacy-Android/android_device_asus_grouper" remote="github1" revision="aosp-8.0" groups="device,grouper" />
+ <project path="kernel/asus/grouper" name="android_kernel_nvidia_tegra3" remote="ads" revision="stable" />
 
- <remove-project name="LineageOS/android_external_libnfc-nxp" />
  <project path="external/libnfc-nxp" name="wilmsn/android_external_libnfc-nxp" remote="github1" revision="cm-14.1" groups="pdk" />   
  <project path="vendor/asus" name="wilmsn/proprietary_vendor_asus" remote="github1" revision="cm-14.1" />
  <project path="vendor/broadcom" name="wilmsn/proprietary_vendor_broadcom" remote="github1" revision="cm-14.1" />
