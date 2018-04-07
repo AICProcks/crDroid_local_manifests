@@ -8,7 +8,6 @@
            fetch="https://github.com/Unlegacy-Android/"
            />
  
- <project path="device/asus/grouper" name="Unlegacy-Android/android_device_asus_grouper" remote="github1" revision="aosp-8.0" groups="device,grouper" />
  <project path="kernel/asus/grouper" name="android_kernel_nvidia_tegra3" remote="ads" revision="stable" />
 
  <project path="external/libnfc-nxp" name="wilmsn/android_external_libnfc-nxp" remote="github1" revision="cm-14.1" groups="pdk" />   
