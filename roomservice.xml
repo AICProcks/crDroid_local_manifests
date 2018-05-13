@@ -7,8 +7,8 @@
   <remote  name="ads"
            fetch="https://github.com/AndDiSa/"
            />
-  <remote  name="til"
-           fetch="https://github.com/tilapia-stable/"
+  <remote  name="los"
+           fetch="https://github.com/LineageOS/"
            />
   <remote  name="aicp"
            fetch="https://github.com/AICProcks/"
@@ -18,8 +18,8 @@
 
  <remove-project name="LineageOS/android_packages_apps_Exchange" />
  
- <project path="device/asus/grouper" name="lineageos_device_grouper" remote="til" revision="n7.1" groups="device,grouper" />
- <project path="device/asus/tilapia" name="lineageos_device_tilapia" remote="aicp" revision="n7.1" groups="device,grouper" />
+ <project path="device/asus/grouper" name="android_device_asus_grouper" remote="los" revision="cm-14.1" groups="device,grouper" />
+ <project path="device/asus/tilapia" name="android_device_asus_tilapia" remote="los" revision="cm-14.1" groups="device,grouper" />
 	
  <project path="kernel/asus/grouper" name="android_kernel_asus_grouper" remote="ads" revision="ads-7.1.0" />
 
@@ -30,8 +30,6 @@
  <project path="vendor/elan" name="wilmsn/proprietary_vendor_elan" remote="github1" revision="cm-14.1" />
  <project path="vendor/invensense" name="wilmsn/proprietary_vendor_invensense" remote="github1" revision="cm-14.1" />
  <project path="vendor/nvidia" name="wilmsn/proprietary_vendor_nvidia" remote="github1" revision="cm-14.1" />
- <project path="vendor/widevine" name="proprietary_vendor_widevine" remote="ads" revision="ads-7.1.0" />
 
 
 </manifest>
-
