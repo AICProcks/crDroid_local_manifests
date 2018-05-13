@@ -10,9 +10,6 @@
   <remote  name="los"
            fetch="https://github.com/LineageOS/"
            />
-  <remote  name="aicp"
-           fetch="https://github.com/AICProcks/"
-           />
 	
 	
 
