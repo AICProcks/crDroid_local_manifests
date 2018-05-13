@@ -15,8 +15,6 @@
 	
  <project path="kernel/asus/grouper" name="android_kernel_asus_grouper" remote="ads" revision="ads-7.1.0" />
    
- <remove-project name="LineageOS/android_external_libnfc-nxp" />
- <project path="external/libnfc-nxp" name="wilmsn/android_external_libnfc-nxp" remote="github1" revision="cm-14.1" groups="pdk" />
  <project path="vendor/asus" name="wilmsn/proprietary_vendor_asus" remote="github1" revision="cm-14.1" />
  <project path="vendor/broadcom" name="wilmsn/proprietary_vendor_broadcom" remote="github1" revision="cm-14.1" />
  <project path="vendor/elan" name="wilmsn/proprietary_vendor_elan" remote="github1" revision="cm-14.1" />
